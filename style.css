@@ -1,0 +1,575 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap')
+
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid black;
+    z-index: 1;
+}
+
+.navigation ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    list-style: none;
+}
+
+.navigation a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+
+.navigation .btn{
+    position: absolute;
+    right: 220px;
+    height: 40px;
+    width: 100px;
+    background: #fff;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navigation .btn-1{
+    position: absolute;
+    right: 340px;
+    height: 40px;
+    width: 100px;
+    background: #fff;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navigation h1{
+    position: relative;
+    left: -300px;
+    font-size: 32px;
+}
+
+.navigation .btn:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+.navigation .btn-1:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+.navigation a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.navigation .img{
+    position: absolute;
+    right: 90px;
+}
+
+.navigation img{
+    margin-left: 10px;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+}
+
+section .left{
+    width: 50%;
+}
+
+.left h1{
+    position: absolute;
+    top: 40%;
+    font-size: 52px;
+    width: 450px;
+    left: 200px;
+    font-weight: 600;
+    font-family: "Anton", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.left p{
+    position: absolute;
+    top: 62%;
+    width: 40%;
+    left: 200px;
+    font-size: 22px;
+}
+
+.left .button{
+    position: absolute;
+    left: 200px;
+    top: 77%;
+    background: #fff;
+    width: 150px;
+    height: 50px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.left .button-1{
+    position: absolute;
+    left: 380px;
+    top: 77%;
+    background: #fff;
+    width: 150px;
+    height: 50px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.left .button:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
+.left .button-1:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
+.right img{
+    width: 45%;
+    height: 100vh;
+    position: absolute;
+    right: 0px;
+    border-radius: 0 0 20px 20px;
+}
+
+.section-1{
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+}
+
+.section-1 h2{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.section-1 p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+
+.section-1 .left{
+    width: 50%;
+}
+
+.section-1 .left h3{
+    position: relative;
+    left: 200px;
+    top: 150px;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.section-1 .left p{
+    width: 500px;
+    position: relative;
+    top: 150px;
+    left: 200px;
+    font-size: 20px;
+}
+
+.section-1 .left img{
+    width: 450px;
+    height: 600px;
+    position: absolute;
+    right: 200px;
+    border-radius: 10px;
+}
+
+.left .text .text-1{
+    font-size: 16px;
+}
+
+.left .text img{
+    width: 100px;
+    height: 100px;
+    background: #000;
+}
+
+.left .text h4{
+    position: relative;
+    top: 160px;
+    left: 240px;
+    font-size: 20px;
+}
+
+.left .text .text-1{
+    position: relative;
+    left: 212px;
+    font-size: 17px;
+}
+
+.left .text i{
+    position: relative;
+    top: 186px;
+    font-size: 30px;
+    left: 205px;
+}
+
+.left .main-1 h4{
+    position: relative;
+    top: 160px;
+    left: 240px;
+    font-size: 20px;
+}
+
+.left .main-1 i{
+    font-size: 30px;
+    position: relative;
+    left: 205px;
+    top: 188px;
+}
+
+.left .main-1 .text-2{
+    font-size: 17px;
+}
+
+.left .main-2 .text-3{
+    font-size: 17px;
+}
+
+.left .main-2 h4{
+    position: relative;
+    left: 240px;
+    top: 163px;
+    font-size: 20px;
+}
+
+.left .main-2 i{
+    position: relative;
+    font-size: 30px;
+    left: 205px;
+    top: 190px;
+}
+
+.click{
+    position: relative;
+    left: 205px;
+    top: 200px;
+    background: transparent;
+    border: 2px solid #ccc;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.click:hover{
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+}
+
+.section-2{
+    width: 100%;
+    height: 100vh;
+}
+
+.move{
+    background: #fff;
+    width: 60px;
+    height: 710px;
+    position: absolute;
+    top: 70px;
+    left: 54%;
+    border-radius: 10px;
+    z-index: 0;
+    transform: rotate(5deg);
+}
+
+.move-1{
+    background: #fff;
+    width: 50px;
+    height: 200px;
+    position: absolute;
+    top: 70px;
+    left: 54%;
+}
+
+.move-2{
+    background: #fff;
+    width: 10px;
+    height: 100px;
+    position: absolute;
+    top: 25px;
+    left: 855px;
+    transform: rotate(90deg);
+    border-left: 1px solid black;
+}
+
+.section-2 .title{
+    width: 80%;
+}
+
+.section-2 .title h1{
+    position: relative;
+    left: 220px;
+    top: 300px;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.section-2 .title P{
+    position: relative;
+    top: 315px;
+    width: 80%;
+    left: 220px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section-2 .article{
+    width: 80%;
+    height: 180px;
+    position: relative;
+    top: 320px;
+    left: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.section-2 .article .item-1{
+    width: 25%;
+}
+
+.section-2 .article .item-2{
+    width: 25%;
+    margin-bottom: 15px;
+}
+
+.section-2 .article .item-3{
+    width: 25%;
+    margin-bottom: 15px;
+}
+
+.section-2 .article .item-1 h3{
+    font-size: 26px;
+    font-family: sans-serif;
+}
+
+.section-2 .article .item-2 h3{
+    font-size: 26px;
+    font-family: sans-serif;
+}
+
+.section-2 .article .item-3 h3{
+    font-size: 26px;
+    font-family: sans-serif;
+}
+
+.section-2 .article .item-1 p{
+    margin-left: 33px;
+    font-size: 17px;
+}
+
+.section-2 .article .item-2 p{
+    margin-left: 33px;
+    font-size: 17px;
+}
+
+.section-2 .article .item-3 p{
+    margin-left: 33px;
+    font-size: 17px;
+}
+
+.section-3{
+    background: #fff;
+    width: 100%;
+    height: 90vh;
+}
+
+
+.section-3 .last{
+    position: relative;
+    left: 200px;
+    width: 85%;
+}
+
+.section-3 .last h1{
+    font-size: 42px;
+    font-family: sans-serif;
+    width: 500px;
+}
+
+.section-3 .last p{
+    margin-top: 15px;
+    font-size: 20px;
+    width: 70%;
+    line-height: 26px;
+}
+
+.section-3 .question{
+    position: relative;
+    left: 200px;
+    top: 50px;
+    width: 75%;
+    background: #fff;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow:0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.section-3 .question h4{
+    color: #3a3a3a;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.section-3 .question h4:hover{
+    text-decoration: underline;
+}
+
+.section-3 .question .one{
+    position: relative;
+    left: 30px;
+    top: 50px;
+}
+
+.section-3 .question .two{
+    position: relative;
+    left: 30px;
+    top: 100px;
+}
+
+.section-3 .question .three{
+    position: relative;
+    left: 30px;
+    top: 150px;
+}
+
+.section-3 .question .four{
+    position: relative;
+    left: 30px;
+    top: 200px;
+}
+
+.footer{
+    border-top: 1px solid #000;
+    width: 100%;
+    height: 300px;
+}
+
+.footer .footer-text{
+    width: 75%;
+    position: relative;
+    left: 200px;
+    height: 200px;
+}
+
+.footer .footer-text .left-1{
+    width: 200px;
+    height: 200px;
+}
+
+.footer .footer-text .left-1 p{
+    font-size: 18px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+.footer .footer-text .left-1 h5{
+    font-size: 28px;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.footer .footer-text .left-1 i{
+    position: relative;
+    left: 20px;
+    top:50px;
+    font-size: 30px;
+}
+
+.footer .footer-text  .right-1{
+    position: relative;
+    width: 700px;
+    height: 200px;
+    left: 40%;
+    top: -200px;
+}
+
+.footer .footer-text  .right-1 h6{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.footer .footer-text  .right-1 ul{
+    position: relative;
+    left: 80px;
+    top: 30px;
+    list-style: none;
+}
+
+.footer .footer-text  .right-1 a{
+    text-decoration: none;
+    color: #000;
+    line-height: 30px;
+}
+
+.footer .footer-text  .right-1 .ul-1{
+    position: relative;
+    left: 300px;
+    display: inline-block;
+    top: -110px;
+}
+
+.footer .footer-text  .right-1 .ul-2{
+    position: relative;
+    left: 300px;
+    display: inline-block;
+    left: 380px;
+    top: -110px;
+}
